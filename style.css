@@ -237,6 +237,8 @@ button {
 .setting input:disabled + label:after {
 	background: #909090;
 }
+
+/* generate button */
 .btn.generate {
 	user-select: none;
 	position: relative;

@@ -44,7 +44,7 @@ function getRandomNumber() {
 	return String.fromCharCode(Math.floor(secureMathRandom() * 10) + 48);
 }
 function getRandomSymbol() {
-	const symbols = '~!@#$%^&*()_+{}":?><;.,';
+	const symbols = '~!@#$%^&*()_+{}":?><;.,=';
 	return symbols[Math.floor(Math.random() * symbols.length)];
 }
 
